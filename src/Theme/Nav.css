@@ -1,0 +1,99 @@
+.light {
+    background-color: aliceblue;
+    color: green;
+    border: 1px solid black;
+
+  }
+   .light nav ul li a {
+    background-color: #dbe3e9 ;
+    color: green;
+  }
+  
+  /* Dark theme */
+  .dark {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+  
+.dark nav ul li a {
+    color: white;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--borders);
+  }
+  
+  h1 {
+    color: var(--heading);
+  }
+  
+  p {
+    color: var(--para);
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: var(--heading);
+    padding: 10px 20px;
+    border: 1px solid var(--borders);
+    border-radius: 5px;
+  }
+  button {
+    background-color: var(--background-color);
+    color: var(--heading);
+    border: 1px solid var(--Color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .main{
+    height: auto;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-top: 20px;
+flex-basis: 10%;    
+  }
+  .img{
+    height: 90vh;
+    width: 50%;
+    background-image: url(../Media/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .two{
+    height: 90vh;
+    width: 50%;
+    background-color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+
+
+  } 

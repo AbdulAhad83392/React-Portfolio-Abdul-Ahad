@@ -1,0 +1,99 @@
+.theme-light {
+  --background-color: white;
+  --heading: red;
+  --para: black;
+  --borders: black;
+}
+
+.theme-dark {
+  --background-color: black;
+  --heading: yellow;
+  --para: white;
+  --borders: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--borders);
+}
+
+h1 {
+  color: var(--heading);
+}
+
+p {
+  color: var(--para);
+}
+
+header {
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--heading);
+  padding: 10px 20px;
+  border: 1px solid var(--borders);
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2%;
+  padding: 20px;
+}
+
+.a {
+  flex-basis: 45%;
+}
+
+.b {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.b img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid var(--borders);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+
+button {
+  background-color: var(--background-color);
+  color: var(--heading);
+  border: 1px solid var(--heading);
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}

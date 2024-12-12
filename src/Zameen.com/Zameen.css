@@ -1,0 +1,58 @@
+.body{background:url("https://www.zameen.com/assets/imageBackgroundLarge.deeb0c70dcee6ae1d029e18e0dcc4d89.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.botn{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.btn1{
+    width: 5rem;
+    height: 5vh;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.buton{
+    width: 50%;
+    gap: 2rem;
+    align-items: center;
+    height: 10vh;
+    margin-left: 25%;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.73);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inp{
+    width: 20%;
+    height: 7vh;
+    margin-top: 2vh;
+}
+.inpt{
+    width: 30%;
+    height: 7vh;
+    margin-top: 2vh;
+}
+.calc{
+    /* margin-left: 35%; */
+    margin-top: 2rem;
+
+}
+.cl{
+    display: flex;
+    justify-content: space-around;
+}
